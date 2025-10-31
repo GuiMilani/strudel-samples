@@ -1,1 +1,15 @@
-{"drumloop":["/drumloop/rimloop.wav"],"hat":["/hat/hat1.wav"],"kick":["/kick/kick1.wav"],"snare":["/snare/sn1.wav"],"_base":"https://raw.githubusercontent.com/GuiMilani/strudel-samples/refs/heads/main/"}
+{
+  "_base": "https://raw.githubusercontent.com/GuiMilani/strudel-samples/refs/heads/main/",
+  "drumloop": {
+    "1": "/drumloop/rimloop.wav"
+  },
+  "hat": {
+    "1": "/hat/hat1.wav"
+  },
+  "kick": {
+    "1": "/kick/kick1.wav"
+  },
+  "snare": {
+    "1": "/snare/sn1.wav"
+  }
+}
