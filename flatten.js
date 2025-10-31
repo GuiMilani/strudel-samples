@@ -5,7 +5,7 @@ import path from "path";
 const root = process.cwd();
 const outputFile = path.join(root, "strudel.json");
 
-// se teu repositório é público no GitHub, coloca o link bruto aqui:
+// define o link bruto pro repositório remoto
 const baseUrl = "https://raw.githubusercontent.com/GuiMilani/strudel-samples/refs/heads/main/";
 
 const entries = fs.readdirSync(root, { withFileTypes: true });
@@ -15,8 +15,8 @@ for (const entry of entries) {
   if (!entry.isDirectory()) continue;
   const folder = entry.name;
 
-  // ignora diretórios ocultos ou o próprio .git
-  if (folder.startsWith(".")) continue;
+  // ignora pastas ocultas, node_modules etc.
+  if (folder.startsWith(".") || folder === "node_modules") continue;
 
   const files = fs
     .readdirSync(path.join(root, folder))
@@ -26,7 +26,8 @@ for (const entry of entries) {
 
   const obj = {};
   files.forEach((file, i) => {
-    obj[i + 1] = `/${folder}/${file}`;
+    // sem barra no início
+    obj[i + 1] = `${folder}/${file}`;
   });
 
   json[folder] = obj;
