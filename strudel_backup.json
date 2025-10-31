@@ -9,7 +9,5 @@
   "kick": {
     "1": "kick/kick1.wav"
   },
-  "snare": {
-    "1": "snare/sn1.wav"
-  }
+  "snare": "snare/sn1.wav"
 }
