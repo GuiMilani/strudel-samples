@@ -1,6 +1,8 @@
 {
   "_base": "https://raw.githubusercontent.com/GuiMilani/strudel-samples/main/",
-  "drumloop": "drumloop/rimloop.wav",
+  "drumloop": "drumloop/neuralsample.wav",
+  "drumloop2": "drumloop/paganpoetry_2.wav",
+  "drumloop3": "drumloop/rimloop.wav",
   "hat": "hat/hat1.wav",
   "kick": "kick/kick1.wav",
   "snare": "snare/sn1.wav"

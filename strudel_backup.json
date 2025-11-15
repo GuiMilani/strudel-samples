@@ -1,13 +1,7 @@
 {
   "_base": "https://raw.githubusercontent.com/GuiMilani/strudel-samples/main/",
-  "drumloop": {
-    "1": "drumloop/rimloop.wav"
-  },
-  "hat": {
-    "1": "hat/hat1.wav"
-  },
-  "kick": {
-    "1": "kick/kick1.wav"
-  },
+  "drumloop": "drumloop/rimloop.wav",
+  "hat": "hat/hat1.wav",
+  "kick": "kick/kick1.wav",
   "snare": "snare/sn1.wav"
 }
